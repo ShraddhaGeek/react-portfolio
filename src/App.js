@@ -44,7 +44,7 @@ class App extends Component {
                 >
                 <ParticleContainer theme={portfolioTheme} />
                     <Route exact path="/" component={MainPage} />
-                    <Route path="/projects" component={ProjectsPage} />
+                    {/* <Route path="/projects" component={ProjectsPage} /> */}
                     <Route path="/blogs" component={BlogPage} />
                     <Route path="/contact" component={ContactPage} />
                     <Route path="/about" component={AboutPage} />

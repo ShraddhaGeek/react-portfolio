@@ -39,36 +39,33 @@ const Experience = (props) => {
 
     const experiences = [
         {
-            company: 'React Admin - Open Source',
-            role: 'Full Stack Developer',
-            duration: 'August 2019',
-            link: 'https://github.com/marmelab/react-admin',
+            company: 'Policy Bazaar',
+            role: 'Lead Front-end Developer',
+            duration: 'Sept 2019 - Present',
+            link: 'https://www.policybazaar.com/"',
             desc: [
-                <p>It is a frontend Framework for building admin applications running in the browser on top of 
-                REST/GraphQL APIs, using ES6, React, and Material Design.</p>,
-                <p>Worked on various issues. You can have a look at my PRs <a href="https://github.com/marmelab/react-admin/pulls/Kunnu01" rel="noopener noreferrer" target="_blank" className={classes.link}>here</a>.</p>,
-            ],
-        },
-        {
-            company: 'Pesto Tech',
-            role: 'Engineering Mate',
-            duration: 'Jun 2019 - Present',
-            link: 'https://pesto.tech',
-            desc: [
-                <p>Spent 8 weeks reviewing web development best practices and learning soft skills for remote work
-                and creating <a href="https://coderhood.netlify.com" rel="noopener noreferrer" target="_blank" className={classes.link}>Slack Clone</a> as team project utilizing the skills learned.</p>,
-                <p>Spent 4 weeks contributing to Open Source Project - 
-                <a href="https://github.com/marmelab/react-admin" rel="noopener noreferrer" target="_blank" className={classes.link}> React Admin</a>.
-                It is a frontend Framework for building admin applications running in the browser on top of REST/GraphQL APIs, 
-                using ES6, React and Material Design. <a className={classes.link} href="https://docs.google.com/document/d/1lH8tlUGaBR4tzEsdgAz4BvsvRjXIJtMgc4lA6KVnbnM/edit#heading=h.l5pg374f3boy" rel="noopener noreferrer" target="_blank">Here </a>
-                are the details of all 
-                PR merged or simply view all PR <a href="https://github.com/marmelab/react-admin/pulls/Kunnu01" rel="noopener noreferrer" target="_blank" className={classes.link}>here</a>.</p>,
+                <p>Worked on the core project of the 
+                    <a href="https://travel.policybazaar.com/" rel="noopener noreferrer"
+                        target="_blank"
+                        className={classes.link}
+                    > Travel Insurance
+                    </a>, 
+                    to create a more interactive customer journey
+                using technologies React</p>,
+                <p>Created a 
+                    <a href="https://travel.policybazaar.com/campaign-v1/" rel="noopener noreferrer"
+                        target="_blank"
+                        className={classes.link}
+                    > Marketing Landing Page 
+                    </a>, 
+                    for handling new campaign</p>,
+                <p>Desining Archeticeture and auditing code of other developers</p>
             ],
         },
         {
             company: 'Successive Technologies',
             role: 'Software Developer',
-            duration: 'Jan 2019 - Jun 2019',
+            duration: 'Feb 2018 - Sept 2019',
             link: 'https://successive.tech',
             desc: [
                 <p>Worked on various parts of the 
@@ -84,16 +81,12 @@ const Experience = (props) => {
             ],
         },
         {
-            company: 'Beryl India',
-            role: 'Full Stack Developer Intern',
-            duration: 'Jun 2018 - Sep 2018',
-            link: 'https://beryl.agency',
+            company: 'Independent FreeLancer',
+            role: 'Full Stack Developer',
+            duration: 'Jan 2017 - Jan 2017',
+            link: '',
             desc: [
-                <p>Worked on the frontend and core functionalities of 
-                    <a href="https://www.oranonline.in/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className={classes.link}> Oran</a>, an e-commerce site for batteries.</p>,
+                <p>Worked on the frontend and core functionalities of an entripse level hospital management project</p>,
                 <p>Continued working as a freelancer helping them solve various issues.</p>,
             ],
         },
