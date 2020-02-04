@@ -83,7 +83,7 @@ const Experience = (props) => {
         {
             company: 'Independent FreeLancer',
             role: 'Full Stack Developer',
-            duration: 'Jan 2017 - Jan 2017',
+            duration: 'Jan 2017 - Jan 2018',
             link: '',
             desc: [
                 <p>Worked on the frontend and core functionalities of an entripse level hospital management project</p>,
